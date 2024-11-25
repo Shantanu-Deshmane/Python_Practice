@@ -1,6 +1,10 @@
-def gcd(a,b):
-    if b==0:
-        return a
+a=int(input("Enter a first number: "))
+b=int(input("Enter a second number: "))
+
+while a !=b :
+    if a>b:
+        a-=b
     else:
-        return gcd(b,a%b)
-print("GCD of entered numbers is : ",gcd(54,12))
+        b-=a
+
+print("gcd is: ",a)
