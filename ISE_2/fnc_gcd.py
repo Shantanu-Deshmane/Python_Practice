@@ -3,4 +3,4 @@ def gcd(a,b):
         return a
     else:
         return gcd(b,a%b)
-print("GCD of entered numbers is : ",gcd(54,12))
+# print("GCD of entered numbers is : ",gcd(54,12))
