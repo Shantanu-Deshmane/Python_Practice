@@ -1,4 +1,4 @@
-import fnc_gcd
+from fnc_gcd import gcd
 a=int(input("enter first number: "))
 b=int(input("enter second number: "))
-print(f"GCD of entered numbers {a} and {b} is: {fnc_gcd.gcd(a,b)}")
+print(f"GCD of entered numbers {a} and {b} is: {gcd(a,b)}")

@@ -7,4 +7,4 @@ while a !=b :
     else:
         b-=a
 
-print("gcd of entered numbers is: ",a)
+print("gcd of entered numbers is: ",b)
