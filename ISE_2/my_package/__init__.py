@@ -1,0 +1,1 @@
+from .primeNum import primeNum
