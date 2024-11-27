@@ -1,0 +1,1 @@
+from .gcd_fnc import gcd
