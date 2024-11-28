@@ -1,11 +1,11 @@
 import tkinter as tk
-import fnc_gcd
+from my_package import gcd
 
 def calculate_gcd():
     a = int(num1.get())
     b = int(num2.get())
-    gcd = fnc_gcd.gcd(a, b)
-    label_result.config(text=f"GCD: {gcd}")
+    gcd1 = gcd(a, b)
+    label_result.config(text=f"GCD: {gcd1}")
 
 root = tk.Tk()
 
