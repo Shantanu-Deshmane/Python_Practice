@@ -6,7 +6,6 @@ while temp>0:
     sum+=a**len(str(num))
     temp//=10
 
-print(sum)
 if num == sum:
     print(f"{num} is Armstrong Number.")
 else:

@@ -16,7 +16,6 @@ class calculateArmstrong:
 num=int(input("Enter a number to find Armstrong: "))
 obj=calculateArmstrong(num) 
 result=obj.armstrong()         
-print(result)
 if result == num:
     print("Entered number is Armstrong")
 else:
