@@ -12,3 +12,5 @@ print("First 6 characters str[0:6] : ", str[0:6])
 # This will print character from given index from start [left] to second range of index from last [right]
 print(str, " : ",str[0:-2])
 print(str1, " : ",str1[2:-2]),
+
+
